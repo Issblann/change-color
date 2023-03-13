@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>Cambio de color</title>
+  </head>
+  <body>
+    <div class="menu-toggle"></div>
+    <div class="nav">
+      <div class="nav-area">
+        <ul>
+          <li>
+            <a href="#" onmouseover="selectSlider('./imgs/img1.jpg')">Home</a>
+          </li>
+          <li>
+            <a href="#" onmouseover="selectSlider('./imgs/img2.jpg')">About</a>
+          </li>
+          <li>
+            <a href="#" onmouseover="selectSlider('./imgs/img3.jpg')"
+              >Services</a
+            >
+          </li>
+          <li>
+            <a href="#" onmouseover="selectSlider('./imgs/img4.jpg')"
+              >Portfolio</a
+            >
+          </li>
+          <li>
+            <a href="#" onmouseover="selectSlider('./imgs/img5.jpg')">Team</a>
+          </li>
+          <li>
+            <a href="#" onmouseover="selectSlider('./imgs/img6.jpg')"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="img-area">
+        <img id="slider" src="/imgs/img1.jpg" alt="img-principal" />
+      </div>
+    </div>
+    <script src="/main.js"></script>
+  </body>
+</html>
